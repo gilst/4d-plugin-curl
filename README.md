@@ -1,5 +1,5 @@
 # 4d-plugin-curl
-This is a 4D plugin implementation of libcurl and curl.
+This is a 4D plugin implementation of [libcurl and cURL](http://curl.haxx.se).
 
 Important
 ---
