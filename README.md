@@ -5,7 +5,7 @@ Important
 ---
 This plugin project is a subset from what was published as "OAuth".
 
-Existing cURL@ commands have the same name and functionality, but their tokens (internal IDs) may have changed.
+Existing cURL@ commands have the same name and functionality, but their tokens (internal IDs) have changed.
 
 To migrate existing methods, do the following:
 
