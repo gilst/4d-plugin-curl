@@ -22,6 +22,7 @@ Returns the path to the curl executable embedded in the plugin. You can use this
 
 Example
 ---
+version
 ```
 $version:=cURL Get version 
   //libcurl/7.40.0 OpenSSL/1.0.1j zlib/1.2.8 libidn/1.29 libssh2/1.4.3
@@ -34,6 +35,25 @@ $stdErr:=""
 
 LAUNCH EXTERNAL PROCESS($path+" -V";$stdIn;$stdOut;$stdErr);
   //curl 7.40.0 (x86_64-apple-darwin14.0.0) libcurl/7.40.0 OpenSSL/1.0.1j zlib/1.2.8 libidn/1.29 libssh2/1.4.3\nProtocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp \nFeatures: IDN IPv6 Largefile NTLM NTLM_WB SSL libz TLS-SRP UnixSockets \n
+```
+https
+```
+C_BLOB($in;$out)
+C_LONGINT($err)
+ARRAY LONGINT($tNomOption;0)
+ARRAY TEXT($tValOption;0)
+APPEND TO ARRAY($tNomOption;CURLOPT_SSL_VERIFYHOST)
+APPEND TO ARRAY($tValOption;"1")
+
+APPEND TO ARRAY($tNomOption;CURLOPT_SSL_VERIFYPEER)
+APPEND TO ARRAY($tValOption;"1")
+APPEND TO ARRAY($tNomOption;CURLOPT_CAINFO)
+APPEND TO ARRAY($tValOption;Convert path system to POSIX(Get 4D folder(Current resources folder)+"cacert.pem"))
+
+APPEND TO ARRAY($tNomOption;CURLOPT_DEBUGFUNCTION)
+APPEND TO ARRAY($tValOption;"CB_DEBUG")
+
+$err:=cURL ("https://github.com/";$tNomOption;$tValOption;$in;$out)
 ```
 
 Version
