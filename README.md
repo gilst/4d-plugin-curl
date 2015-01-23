@@ -1,7 +1,9 @@
 # 4d-plugin-curl
 This is a 4D plugin implementation of libcurl and curl.
 
-*Important notice*: This plugin project is a subset from what was published as "OAuth".
+Important
+---
+This plugin project is a subset from what was published as "OAuth".
 
 Existing cURL@ commands have the same name and functionality, but their tokens (internal IDs) may have changed.
 
