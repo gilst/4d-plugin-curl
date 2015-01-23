@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D01CCC60486CAD60068D4B7"
-               BuildableName = "cURL.bundle"
+               BuildableName = "curl-4d.bundle"
                BlueprintName = "cURL"
                ReferencedContainer = "container:cURL.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D01CCC60486CAD60068D4B7"
-            BuildableName = "cURL.bundle"
+            BuildableName = "curl-4d.bundle"
             BlueprintName = "cURL"
             ReferencedContainer = "container:cURL.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D01CCC60486CAD60068D4B7"
-            BuildableName = "cURL.bundle"
+            BuildableName = "curl-4d.bundle"
             BlueprintName = "cURL"
             ReferencedContainer = "container:cURL.xcodeproj">
          </BuildableReference>
