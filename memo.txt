@@ -1,0 +1,36 @@
+about SSH2
+
+on mac, linking to the lates openssl could cause problems using SFTP.
+let's link to the system openssl.
+
+i.e. 
+
+/usr/lib/libssl.0.9.8.dylib
+/usr/lib/libcrypto.0.9.8.dylib
+
+http://forums.4d.fr/Post/FR/15200699/1/15251183#15251183
+
+about CURL
+
+edit easy.c so that a while loop will yield to 4D.
+
+e.g. easy_transfer
+
+create 
+static CURLcode easy_transfer_with_yield(CURLM *multi, void (*_PA_YieldAbsolute)(void))
+
+add inside while loop
+(*_PA_YieldAbsolute)();
+
+create
+easy_events_with_yield
+wait_or_timeout_with_yield
+easy_perform_with_yield
+
+finally
+curl_easy_transfer_with_yield
+
+./configure --with-libidn --with-libssh2 --enable-ipv6 
+
+
+

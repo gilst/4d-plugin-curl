@@ -1,0 +1,1 @@
+﻿{"name":"cURL","id":20000,"commands":[{"theme":"cURL","syntax":"cURL(&T;&Y;&Y;&O;&O;&Y;&Y;&Y;&Y):L"},{"theme":"cURL","syntax":"cURL Escape url(&T):T"},{"theme":"cURL","syntax":"cURL Unescape url(&T):T"},{"theme":"cURL","syntax":"cURL Get version:T"},{"theme":"cURL","syntax":"cURL Get date(&T;&L):L"},{"theme":"cURL","syntax":"cURL Get executable:T"}]}
