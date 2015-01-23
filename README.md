@@ -20,6 +20,14 @@ New
 
 Returns the path to the curl executable embedded in the plugin. You can use this with LAUNCH EXTERNAL PROCESS.
 
+Version
+---
+v14 is for v14 and above, Windows, OS X 10.8+. 32/64 bits.
+v11 is for v11 and above, Windows, OS X 10.6+. 32/64 bits. (Intel only)
+
+Dependencies
+---
+
 The libary version has been updated.
 
 **Mac OS X**
@@ -62,7 +70,7 @@ The libary version has been updated.
 |tftp|◯|◯|
 
 |Feature|Mac OS X|Windows|
-|:-----:|:-:|:---:|:-----:|
+|:-----:|:-:|:-----:|
 |IDN|◯|◯|
 |IPv6|◯||
 |Largefile|◯|◯|
