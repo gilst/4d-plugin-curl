@@ -44,8 +44,6 @@ Version
 Dependencies
 ---
 
-The libary version has been updated.
-
 **Mac OS X**
 
 * libcurl/7.40.0
