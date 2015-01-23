@@ -22,8 +22,8 @@ Returns the path to the curl executable embedded in the plugin. You can use this
 
 Version
 ---
-v14 is for v14 and above, Windows, OS X 10.8+. 32/64 bits.
-v11 is for v11 and above, Windows, OS X 10.6+. 32/64 bits. (Intel only)
+* v14 is for v14 and above, Windows, OS X 10.8+. 32/64 bits.
+* v11 is for v11 and above, Windows, OS X 10.6+. 32/64 bits. (Intel only)
 
 Dependencies
 ---
