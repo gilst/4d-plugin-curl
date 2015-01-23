@@ -38,7 +38,7 @@ LAUNCH EXTERNAL PROCESS($path+" -V";$stdIn;$stdOut;$stdErr);
 
 Version
 ---
-* v14 is for v14 and above, Windows, OS X 10.8+ 32/64 bits.
+* v14 is for v14 and above, Windows & OS X 10.8+ 32/64 bits.
 * v11 is for v11 and above, Windows 32/64 bits, OS X 10.6+ 32 bits (Intel only)
 
 Dependencies
