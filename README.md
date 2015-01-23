@@ -46,34 +46,34 @@ The libary version has been updated.
 * libidn/1.29
 * libssh2/1.4.3 
 
-|Protocol|Mac OS X|Linux|Windows|
-|:-------:|:-:|:---:|:-----:|
-|dict|⭕️|⭕️|⭕️|
-|file|⭕️|⭕️|⭕️|
-|ftp|⭕️|⭕️|⭕️|
-|ftps|⭕️|⭕️|⭕️|
-|gopher|⭕️|⭕️|⭕️|
-|http|⭕️|⭕️|⭕️|
-|https|⭕️|⭕️|⭕️|
-|imap|⭕️|⭕️|⭕️|
-|imaps|⭕️|⭕️|⭕️|
-|ldap|⭕️|⭕️|⭕️|
-|ldaps|⭕️|⭕️|⭕️|
-|pop3|⭕️|⭕️|⭕️|
-|pop3s|⭕️|⭕️|⭕️|
-|rtsp|⭕️|⭕️|⭕️|
-|scp|⭕️|⭕️|⭕️|
-|sftp|⭕️|⭕️|⭕️|
-|smtp|⭕️|⭕️|⭕️|
-|smtps|⭕️|⭕️|⭕️|
-|telnet|⭕️|⭕️|⭕️|
-|tftp|⭕️|⭕️|⭕️|
+|Protocol|Mac OS X|Windows|
+|:-------:|:-:|:-----:|
+|dict|◯|◯|
+|file|◯|◯|
+|ftp|◯|◯|
+|ftps|◯|◯|
+|gopher|◯|◯|
+|http|◯|◯|
+|https|◯|◯|
+|imap|◯|◯|
+|imaps|◯|◯|
+|ldap|◯|◯|
+|ldaps|◯|◯|
+|pop3|◯|◯|
+|pop3s|◯|◯|
+|rtsp|◯|◯|
+|scp|◯|◯|
+|sftp|◯|◯|
+|smtp|◯|◯|
+|smtps|◯|◯|
+|telnet|◯|◯|
+|tftp|◯|◯|
 
-|Feature|Mac OS X|Linux|Windows|
+|Feature|Mac OS X|Windows|
 |:-----:|:-:|:---:|:-----:|
-|IDN|⭕️|⭕️|⭕️|
-|IPv6|⭕️|⭕️||
-|Largefile|⭕️|⭕️|⭕️|
-|NTLM|⭕️|⭕️|⭕️|
-|SSL|⭕️|⭕️|⭕️|
-|libz|⭕️|⭕️|⭕️|
+|IDN|◯|◯|
+|IPv6|◯||
+|Largefile|◯|◯|
+|NTLM|◯|◯|
+|SSL|◯|◯|
+|libz|◯|◯|
