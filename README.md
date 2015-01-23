@@ -32,7 +32,7 @@ The libary version has been updated.
 
 **Mac OS X**
 
-* libcurl/7.39.0
+* libcurl/7.40.0
 * OpenSSL/1.0.1j 
 * zlib/1.2.8 
 * libidn/1.29 
@@ -40,7 +40,7 @@ The libary version has been updated.
  
 **Windows**
 
-* libcurl/7.39.0
+* libcurl/7.40.0
 * OpenSSL/1.0.1j
 * zlib/1.2.8
 * libidn/1.29
@@ -77,3 +77,9 @@ The libary version has been updated.
 |NTLM|◯|◯|
 |SSL|◯|◯|
 |libz|◯|◯|
+
+Remarks
+---
+On Mac, SSH2 is linked to the system OpenSSL located at /usr/lib/, not the one embedded in the plugin. [This is to avoid crash with SFTP](http://forums.4d.fr/Post/FR/15200699/1/15251183).
+
+LIBCURL is modified so that it will yield to 4D during a long operation (easy.c).
