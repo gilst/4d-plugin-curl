@@ -9,10 +9,10 @@ Existing cURL@ commands have the same name and functionality, but their tokens (
 
 To migrate existing methods, do the following:
 
-1. Comment the code that calls the plugin.
+1. Comment the code that calls cURL@ plugin commands.
 2. Close 4DB.
 3. Replace the plugin.
-4. Uncomment the code that calls the plugin.
+4. Uncomment the code.
  
 New Command
 ---
