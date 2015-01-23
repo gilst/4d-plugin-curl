@@ -24,7 +24,7 @@ Example
 ---
 ```
 $version:=cURL Get version 
-  //libcurl/7.40.0 OpenSSL/1.0.1j zlib/1.2.8 libidn/1.28 libssh2/1.4.3
+  //libcurl/7.40.0 OpenSSL/1.0.1j zlib/1.2.8 libidn/1.29 libssh2/1.4.3
 
 $path:=cURL Get executable 
 
