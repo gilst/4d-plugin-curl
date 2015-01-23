@@ -3,7 +3,7 @@ This is a 4D plugin implementation of [libcurl and cURL](http://curl.haxx.se).
 
 Important
 ---
-This plugin project is a subset from what was published as "OAuth".
+This plugin project is a forked subset of what was published as [OAuth](https://github.com/miyako/4d-plugin-oauth).
 
 Existing cURL@ commands have the same name and functionality, but their tokens (internal IDs) have changed.
 
