@@ -1045,6 +1045,24 @@ void cURL_Get_executable(sLONG_PTR *pResult, PackagePtr pParams)
         returnValue.setUTF16String(path);
     }
 #else
+	wchar_t	fDrive[_MAX_DRIVE],
+	fDir[_MAX_DIR],
+	fName[_MAX_FNAME],
+	fExt[_MAX_EXT];
+	
+	wchar_t thisPath[_MAX_PATH] = {0};
+	wchar_t resourcesPath[_MAX_PATH] = {0};
+	wchar_t srchilitePath[_MAX_PATH] = {0};
+	HMODULE b = GetModuleHandleW(L"curl-4d.4dx");
+	if(b){
+		GetModuleFileNameW(b, thisPath, _MAX_PATH);
+		_wsplitpath_s(thisPath, fDrive, fDir, fName, fExt);	
+		std::wstring windowsPath = fDrive;
+		windowsPath += fDir;
+		windowsPath += L"curl.exe";
+		returnValue.setUTF16String((const PA_Unichar *)windowsPath.c_str(), windowsPath.size());
+	}
+
     
 #endif    
 

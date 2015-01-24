@@ -32,5 +32,9 @@ curl_easy_transfer_with_yield
 
 ./configure --with-libidn --with-libssh2 --enable-ipv6 
 
+#Windows
 
+http://developer.covenanteyes.com/building-openssl-for-visual-studio/
+
+http://www.codeproject.com/Articles/302012/How-to-Build-libiconv-with-Microsoft-Visual-Studio
 
