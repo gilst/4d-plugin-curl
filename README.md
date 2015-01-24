@@ -116,7 +116,7 @@ Remarks
 ---
 On Mac, SSH2 is linked to the system OpenSSL located at /usr/lib/, not the one embedded in the plugin. [This is to avoid crash with SFTP](http://forums.4d.fr/Post/FR/15200699/1/15251183).
 
-On Windows, OPENSSL (LIBEAY and LIBSSL) and LIBIDN are statically linked to LIBCURL, to avoid collision with the DLL included in 4D itself.
+On Windows, OPENSSL (LIBEAY and LIBSSL) and LIBSSH2 are statically linked to LIBCURL, to avoid collision with the DLL included in 4D itself.
 
 LIBCURL is modified so that it will yield to 4D during a long operation (easy.c).
 
